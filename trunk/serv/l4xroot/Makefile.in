@@ -34,7 +34,7 @@ top_builddir=	@top_builddir@
 include $(top_srcdir)/Mk/l4x.base.mk
 
 
-PROGRAM=	l4xroottask
+PROGRAM=	l4xroot
 PROGRAM_DEPS=	$(top_builddir)/lib/l4x/libl4x.a
 
 SRCS=		crt0-$(ARCH).S main.cc
